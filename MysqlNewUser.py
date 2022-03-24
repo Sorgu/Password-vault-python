@@ -1,6 +1,6 @@
 from connectDB import mydbfunc
 import SaltHash
-# NEED TO MAKE USER TABLE COLUMNS UNIQUE TO PREVENT DUPE ACCOUNTS
+
 def newuser(masterpassword, email):
     from connectDB import mydb
     mycursor = mydb.cursor(buffered=True)
